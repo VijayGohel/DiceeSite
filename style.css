@@ -1,0 +1,38 @@
+body
+{
+	text-align: center;
+	background-color: #dfe4ea;
+	color: #57606f;
+}
+.titleText
+{
+	font-family: 'Lobster', cursive;
+	font-size: 8rem;
+	margin: 3% 0 3%;
+}
+p
+{
+	font-family: 'Indie Flower', cursive;
+	
+}
+.playerDice
+{
+	font-size: 2rem;
+	display: inline-block;
+	
+}
+.playerDice p
+{
+	margin: 10%;
+}
+.diceImg
+{
+	width: 80%;
+}
+
+footer
+{
+	font-size: 1rem;
+	margin: 5% 0 0;
+	color: #a4b0be;
+}
