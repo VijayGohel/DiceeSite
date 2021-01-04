@@ -4,7 +4,9 @@ function random()
 
 }
 
-var rand1=random();
+document.querySelector(".refreshButton").addEventListener("click", function ()
+    	{
+    		var rand1=random();
 var rand2=random();
 var img1="images/dice"+rand1+".png";
 var img2="images/dice"+rand2+".png";
@@ -24,3 +26,6 @@ else
 {
 	document.querySelector("h1").innerHTML="Draw !";
 }
+    		
+    	});
+

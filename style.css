@@ -8,7 +8,7 @@ body
 {
 	font-family: 'Lobster', cursive;
 	font-size: 8rem;
-	margin: 3% 0 3%;
+	margin: 3% 0 0;
 }
 p
 {
@@ -30,9 +30,27 @@ p
 	width: 80%;
 }
 
+.refreshButton
+{
+	display: block;
+	background-color: rgb(156,6,12);
+	border: none;
+	outline: none;
+	margin: 3% auto 0;
+	padding: 10px 20px;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.5rem;
+}
+.refreshButton:enabled
+{
+	border: none;
+	outline: none;
+	
+}
 footer
 {
 	font-size: 1rem;
-	margin: 5% 0 0;
+	margin: 2% 0 0;
 	color: #a4b0be;
 }
